@@ -5,22 +5,15 @@ const myVM = (() => {
     let userButtons = document.querySelectorAll('.u-link'),
         lightBox = document.querySelector('.lightbox');
 
-    // create the social media list
-    function renderSocialMedia(media) {
-        return `<ul class="u-social">
-                    ${media.map(item => `<li>${item}</li>`).join("")}
-                </ul>`
-    }
-
+// LIGHTBOX CONTENT?????
     function parseUserData(person) {
         let targetDiv = lightBox.querySelector('.lb-content'),
             targetImg = lightBox.querySelector('img');
-
+// MOREDYNAMIC CONTENT FROM DB
         let bioContent = `
-            <p>${person.bio}</p>
-            <h4>Social Media:</h4>
-            <!-- loop thru social media stuff here -->
-            ${renderSocialMedia(person.social)}
+            <img>${person.Image}>
+            <p>Check out this cool video:${person.Video}</p>
+            <p>Also if you want to know more about this subject, follow <a href=${person.Link}>this</a></p> 
         `;
 
         targetDiv.innerHTML = bioContent;
@@ -58,3 +51,4 @@ const myVM = (() => {
         lightBox.classList.remove('show-lb');
     });
 })();
+

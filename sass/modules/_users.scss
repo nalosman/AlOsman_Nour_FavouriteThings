@@ -9,18 +9,33 @@
         text-align: center;
         padding: 8px;
 
-        .u-avatar { max-width: 200px; }
+        .u-avatar { max-width: 200px; margin-bottom: 25px; }
+
 
         .u-link { 
             display: block; 
-            //width: 150px;  
+            width: 150px;  
             text-decoration: none;
             margin: 0 auto;
             background-color: rgba(255, 255, 255, 0.8);
             padding: 5px;
+            border: 2px solid cornflowerblue;
+            font-family: $sans-serif-font;
+            font-size: 1em;
         }
 
         h1, h3 { margin: 5px 0; }
+        h2 {
+            color: mediumpurple;
+            font-family: 'Abril Fatface';
+            font-size: 1.85em;
+            margin: 25px 0 10px 0;
+        }
+
+        .thing-description {
+          font-family: $sans-serif-font; 
+          font-size: 1em;
+        }
     }
 }
 

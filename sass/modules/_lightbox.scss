@@ -9,7 +9,7 @@
     z-index: 5000;
     padding: 20px;
 
-    background-color: rgba(0, 0,0, 0.85);
+    background-color: rgba(248, 236, 255, 0.74);
 
     .sidebar {
         flex: 1;
@@ -36,9 +36,3 @@
 
 .show-lb { display: flex !important; }
 
-.u-social {
-    li { 
-        display: inline-block;
-        padding: 10px;
-    }
-}
