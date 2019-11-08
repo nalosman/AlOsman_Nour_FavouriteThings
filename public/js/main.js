@@ -33,7 +33,7 @@ const myVM = (() => {
         event.preventDefault();
         //debugger;
         // 1, 2, or 3 depending on which anchor tag you click
-        let url = `/${this.getAttribute('href')}`,
+        let url = `/users/${this.getAttribute('href')}`,
             currentImg = this.previousElementSibling.getAttribute('src');
 
         // this goes and fetches the database content (or an API endpoint)
