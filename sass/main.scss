@@ -3,6 +3,8 @@
 @import 'modules/_users';
 @import 'modules/_lightbox';
 
+@import 'modules/errors';
+
 body {
     color: $main-color;
     background-color: $body-bg;
