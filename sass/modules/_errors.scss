@@ -1,6 +1,16 @@
-body {
-  background-color: black;
-  color: white;
+h3 {
+  font-family: $sans-serif-font;
+  font-size: 2em;
+  text-align: center;
 }
 
-a {color: white; text-decoration: none;}
+a {
+  color: black; 
+  font-family: $sans-serif-font;
+  text-decoration: none;
+}
+
+a:hover {
+
+  color: cornflowerblue;
+}
